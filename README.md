@@ -8,5 +8,4 @@ This repository is structured by two main folders: 'data' and 'code'.
 More information can be found in the 'readMe' file located in the 'data' folder.
 
 'code' contains Matlab and Python code that was used to preprocess ABIDE. 
-
 More information can be found in the 'readMe' file located in the 'code' folder. 
