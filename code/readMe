@@ -1,1 +1,10 @@
-This folder contains two subfolders: 'Matlab' and 'Python'.
+This folder contains the subfolders: 'Matlab', 'Python', 'and ICA_AROMA_MASKS'.
+
+All Python parts and the 'ICA_AROMA_MASKS' follow the original implementation of ICA-AROMA:
+https://github.com/maartenmennes/ICA-AROMA. The only adaptation made here is that the
+ICA-AROMA.py and the ICA_AROMA_FUNCTIONS.py scripts are changed to use FSL in windows
+subsystem for Linux. This change is only made for the case in which this dataset is run (
+2x2x2 mm voxels in MNI space). If you do not use windows subsystem for Linux or you want to
+run different parts of the script, it is best to use the original scripts. 
+
+
